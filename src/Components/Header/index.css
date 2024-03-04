@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    gap:8rem;
+}
+header nav ul{
+    display: flex;
+    gap:2rem
+}
+header nav ul li{
+    list-style-type: none;
+}
+
+header nav ul li a{
+    text-decoration-color: transparent;
+    color:white;
+}
+
+header .buttons{
+    display: flex;
+    gap:2rem;
+}
+header .buttons button{
+    border:none;
+    background-color: rgb(227, 142, 114);
+    padding:1rem 3rem ;
+    color:white;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+header .cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+header .cart #added-items{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    color:black
+}

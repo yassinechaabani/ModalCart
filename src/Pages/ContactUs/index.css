@@ -1,0 +1,6 @@
+.contact-us-page{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    margin:4rem
+}

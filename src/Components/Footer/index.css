@@ -1,0 +1,23 @@
+
+footer .social-medias-container{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+}
+
+footer .social-medias-container .icon{
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(96 92 151);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer #copyright{
+    color:white;
+    font-weight: 500;
+    font-size: 1rem;
+}
