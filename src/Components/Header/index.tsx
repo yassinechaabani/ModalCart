@@ -13,7 +13,9 @@ export default function Header(){
 
     const [isModalOpen,setIsModalOpen]=useState(false)
 
-
+    const closeModal = () =>{
+        setIsModalOpen(false)
+    }
     return (
         <header>
         <h1>LOGO</h1>
@@ -35,8 +37,8 @@ export default function Header(){
         </div>
         {
             isModalOpen && (
-                <Modal onClose={()=> setIsModalOpen(false)}>
-                        <h1>Hello from popup</h1>
+                <Modal onClose={closeModal} courses={coursesData}>
+                        
                 </Modal>
             )
         }
